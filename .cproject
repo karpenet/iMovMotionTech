@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.1010903121">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.1010903121" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.1010903121" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.1010903121.1436764485" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.1131969741" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.1581529478" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/iMov}/Release" id="io.sloeber.sketch.builder.267534618" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.2111057162" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option id="io.sloeber.compiler.cpp.sketch.option.incpath.1486085756" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_Unified_Sensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_BNO055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_BNO055/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/ESP8266WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_configAbstraction}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_inertialSensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_main}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_wirelessInterface}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1872039767" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.927621342" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option id="io.sloeber.compiler.c.sketch.option.incpath.2051363618" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_Unified_Sensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_BNO055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_BNO055/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/ESP8266WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_configAbstraction}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_inertialSensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_main}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_wirelessInterface}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.501616796" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.128224410" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option id="io.sloeber.compiler.asm.sketch.option.incpath.1824478181" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_Unified_Sensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_BNO055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/Adafruit_BNO055/utility}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/ESP8266WiFi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_configAbstraction}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_inertialSensor}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_main}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/iMov/libraries/iMov_wirelessInterface}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.611359443" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.331417123" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.1412533970" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.331410491" name="Arduino tool Create eeprom" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.2127087800" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="libraries/iMov_inertialSensor|iMov_inertialSensor|libraries/iMov_main|iMov_main|libraries/iMov_configAbstraction|iMov_configAbstraction|libraries/iMov_wirelessInterface|iMov_wirelessInterface|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/Adafruit_BNO055/OBJLoader|libraries/?*/utility/*/*|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/**/._*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libraries/iMov_configAbstraction"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libraries/iMov_inertialSensor"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libraries/iMov_main"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libraries/iMov_wirelessInterface"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="iMov.null.2061079055" name="iMov"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="refreshScope"/>
+</cproject>
